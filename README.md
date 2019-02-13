@@ -17,7 +17,7 @@ List of Event Logs
 The list contains over 300 entries with resources extracted from our search patterns. They are provided in different format. This list may also contain web-page entries that were referred.:
  - .bib Format: [extractedPublications.bib](https://raw.githubusercontent.com/prasannjeet/Smart-Troubleshooting-Survey-Resources/master/extractedPublications.bib)
  - .ris Research Information Systems Format: [extractedPublications.ris](https://raw.githubusercontent.com/prasannjeet/Smart-Troubleshooting-Survey-Resources/master/extractedPublications.ris)
- - .xml Endnote XML Format: [extractedPublications_EndNote.zim](https://drive.google.com/open?id=1rBP7SgD4SKGUuBKtMytSsFzIKWTibMR_)
+ - .xml Endnote XML Format: [extractedPublications_EndNote.zip](https://drive.google.com/open?id=1rBP7SgD4SKGUuBKtMytSsFzIKWTibMR_)
  
  Password for the XML Format can be obtained by contacting us.
  
