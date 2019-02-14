@@ -1,0 +1,101 @@
+2018-02-02 18:07:08.035, Info      [InitializeLog] Start...
+2018-02-02 18:07:08.035, Info      Cleaning up log in the folder: [C:\Windows10Upgrade]...
+2018-02-02 18:07:08.035, Info      Log search pattern: C:\Windows10Upgrade\compatcheck_*.log
+2018-02-02 18:07:08.035, Info      [CStateManager::LogCommandLineParameters] Command line parameters: "C:\Windows10Upgrade\Windows10UpgraderApp.exe" /SkipSelfUpdate
+2018-02-02 18:07:08.051, Info      [CStateManager::LogCommandLineParameters] User selected to skip CheckUpgrade
+2018-02-02 18:07:08.223, Info      [CStateManager::LogCommandLineParameters] Setup Client ID is Win10UA:::::
+2018-02-02 18:07:08.223, Info      Init Telemetry...
+2018-02-02 18:07:08.223, Info      [InitializeTelemetry] Assistant Show up time is 2018-02-02 18:07:08:223 (UTC+8)
+2018-02-02 18:07:08.223, Info      [InitializeTelemetry] wstrExecutablePath = C:\Windows10Upgrade
+2018-02-02 18:07:08.223, Info      [InitializeTelemetry] Exe name = Windows10UpgraderApp.exe
+2018-02-02 18:07:10.958, Info      [WMIHelper::GetRegMachineId]  Open an existing reg key HKLM\SOFTWARE\Microsoft\SQMClient.
+2018-02-02 18:07:10.958, Info      [InitializeTelemetry]  Machine Id is: {CA734CBA-71C0-44E5-8A42-9A679DDD2035}
+2018-02-02 18:07:10.958, Info      [InitializeTelemetry] Windows Version: 10.0 (16299),,producttype=1
+2018-02-02 18:07:10.958, Info      Getting configuration UpgradeClientId from config file
+2018-02-02 18:07:10.958, Info      Configuration is retrieved from config file: section Default key UpgradeClientId value {}
+2018-02-02 18:07:10.958, Info      Get upgrade client id from config file
+2018-02-02 18:07:10.958, Info      Getting configuration PartnerId from config file
+2018-02-02 18:07:10.958, Warning   [GetConfigurationByKey]  File:utility.cpp, Line:269 failed with error code 0x80070002
+2018-02-02 18:07:10.958, Info      [GenerateClientId]  >= 6.2, Use Rtl function to detect OS version ...
+2018-02-02 18:07:10.958, Info      [ClientId::Parse]  start parsing client id Win10UA:VNL:URL::{}:[10.0.16299]:[2] 
+2018-02-02 18:07:10.958, Info      [ClientId::Parse]  >= 6.2, Use Rtl function to detect OS version ...
+2018-02-02 18:07:11.020, Info      Current executable file path: C:\Windows10Upgrade\Windows10UpgraderApp.exe
+2018-02-02 18:07:11.020, Info      Checking file version C:\Windows10Upgrade\Windows10UpgraderApp.exe.
+2018-02-02 18:07:11.020, Info      Current version: major 10004 - minor 23f0574e
+2018-02-02 18:07:11.020, Info      [ClientId::DumpParseResult] m_partnerName is VNL
+2018-02-02 18:07:11.020, Info      [ClientId::DumpParseResult] m_externalId is {}
+2018-02-02 18:07:11.020, Info      [ClientId::DumpParseResult] m_description is URL::<1.4.9200.22350>:<1>
+2018-02-02 18:07:11.020, Info      [ClientId::DumpParseResult] m_versionStr is [10.0.16299]
+2018-02-02 18:07:11.020, Info      [ClientId::DumpParseResult] m_archStr is [2]
+2018-02-02 18:07:11.020, Info      [CStateManager::SetClientId] Set ClientId = Win10UA:VNL:URL::<1.4.9200.22350>:<1>:{}:[10.0.16299]:[2]
+2018-02-02 18:07:11.020, Info      [InitializeClientId] Set Client Id : Win10UA:VNL:URL::{}:[10.0.16299]:[2]
+2018-02-02 18:07:11.020, Info      Getting configuration EnableWelcomePage from config file
+2018-02-02 18:07:11.020, Warning   [GetConfigurationByKey]  File:utility.cpp, Line:269 failed with error code 0x80070002
+2018-02-02 18:07:11.020, Warning   [CheckWhetherShowWelcomeOnWin10]  File:welcomepage.cpp, Line:31 error code 0x80070002 ignored
+2018-02-02 18:07:11.020, Info      Getting configuration UpgradeCV from config file
+2018-02-02 18:07:11.020, Info      Configuration is retrieved from config file: section Default key UpgradeCV value DM4uczrIxU2d6mjb.999
+2018-02-02 18:07:11.020, Info      Get upgrade CV from config file
+2018-02-02 18:07:11.020, Info      [CStateManager::InitializeCV] upgrade CV = DM4uczrIxU2d6mjb.999
+2018-02-02 18:07:11.020, Info      [InitializeTelemetry]  Init Telemetry system based on WER APIs
+2018-02-02 18:07:11.020, Info      Current executable file path: C:\Windows10Upgrade\Windows10UpgraderApp.exe
+2018-02-02 18:07:11.020, Info      Checking file version C:\Windows10Upgrade\Windows10UpgraderApp.exe.
+2018-02-02 18:07:11.020, Info      Current version: major 10004 - minor 23f0574e
+2018-02-02 18:07:11.020, Info      Getting configuration EnableWelcomePage from config file
+2018-02-02 18:07:11.020, Warning   [GetConfigurationByKey]  File:utility.cpp, Line:269 failed with error code 0x80070002
+2018-02-02 18:07:11.020, Warning   [CheckWhetherShowWelcomeOnWin10]  File:welcomepage.cpp, Line:31 error code 0x80070002 ignored
+2018-02-02 18:07:11.020, Info      Getting configuration Flight from config file
+2018-02-02 18:07:11.020, Info      Configuration is retrieved from config file: section Default key Flight value fast
+2018-02-02 18:07:11.020, Info      Completed PerformTaskInternal in thread: [6884]
+2018-02-02 18:07:11.020, Info      Updating UI InitializingApplication
+2018-02-02 18:07:18.976, Info      [CUpgraderAppDlg::OnInitDialog] Current build number: 16299.
+2018-02-02 18:07:18.976, Info      [CUpgraderAppDlg::OnInitDialog] Built-in known build number: 16299
+2018-02-02 18:07:22.680, Info      [CUpgraderAppDlg::Navigate] system default locale: en-US; resource path: C:\Windows10Upgrade\resources\ux\default.htm#win10_en-US
+2018-02-02 18:07:22.680, Info      Invoke html with url: C:\Windows10Upgrade\resources\ux\default.htm#win10_en-US
+2018-02-02 18:07:25.570, Info      Requested URL: file:///C:/Windows10Upgrade/resources/ux/default.htm#win10_en-US
+2018-02-02 18:07:40.852, Info      Requested URL: about:blank
+2018-02-02 18:07:43.399, Info      State manager get called back with state InitializingApplication, hr 0x0
+2018-02-02 18:07:43.837, Info      Requested URL: C:\Windows10Upgrade\resources\ux\EULA\EULA_en-us.htm
+2018-02-02 18:07:44.571, Info      State manager originalState InitializingApplication, m_State InitializingApplication.
+2018-02-02 18:07:44.571, Info      [TelemetryUpgrade::CanSendTelemetry]  Telemetry allowed on Win10 and above.
+2018-02-02 18:07:44.571, Info      Perform async task: state InitializingStates
+2018-02-02 18:07:44.571, Info      Updating UI InitializingStates
+2018-02-02 18:07:44.571, Info      Starting PerformTaskInternal in thread: [2912]
+2018-02-02 18:07:44.571, Info      Executing action for state [InitializingStates]...
+2018-02-02 18:07:44.571, Info      [CStateManager::ChangeWindowState] Restore the task from system tray
+2018-02-02 18:07:44.571, Info      State manager get called back with state InitializingStates, hr 0x0
+2018-02-02 18:07:44.571, Info      Completed PerformTaskInternal in thread: [2912]
+2018-02-02 18:07:44.571, Info      Calling js function to transform state InitializingStates: javascript:updateControls(30, "")
+2018-02-02 18:07:44.759, Info      [TelemetryUpgrade::CanSendTelemetry]  Telemetry allowed on Win10 and above.
+2018-02-02 18:07:44.759, Info      State manager originalState InitializingStates, m_State InitializingStates.
+2018-02-02 18:07:44.759, Info      State manager originalState CheckingUpgrade, m_State InitializingStates.
+2018-02-02 18:07:44.759, Info      Getting configuration EnableWelcomePage from config file
+2018-02-02 18:07:44.759, Warning   [GetConfigurationByKey]  File:utility.cpp, Line:269 failed with error code 0x80070002
+2018-02-02 18:07:44.759, Warning   [CheckWhetherShowWelcomeOnWin10]  File:welcomepage.cpp, Line:31 error code 0x80070002 ignored
+2018-02-02 18:07:44.759, Info      [CStateManager::TransformState] run command msiexec /x {139493B2-F1BC-4F05-A974-B49297C1EB04} /q
+2018-02-02 18:07:44.759, Info      [WinUtil::RunCommand]  Command Line: msiexec /x {139493B2-F1BC-4F05-A974-B49297C1EB04} /q
+2018-02-02 18:07:45.400, Info      [TelemetryUpgrade::CanSendTelemetry]  Telemetry allowed on Win10 and above.
+2018-02-02 18:07:45.400, Info      Getting configuration PartnerId from config file
+2018-02-02 18:07:45.400, Warning   [GetConfigurationByKey]  File:utility.cpp, Line:269 failed with error code 0x80070002
+2018-02-02 18:07:45.400, Warning   [CStateManager::SetWelcomePageProperties]  File:statemanager.cpp, Line:633 error code 0x80070002 ignored
+2018-02-02 18:07:45.400, Info      Getting configuration UserUpgrade from config file
+2018-02-02 18:07:45.400, Info      Configuration is retrieved from config file: section Default key UserUpgrade value true
+2018-02-02 18:07:45.400, Info      Getting configuration UserSignature from config file
+2018-02-02 18:07:45.400, Warning   [GetConfigurationByKey]  File:utility.cpp, Line:269 failed with error code 0x80070002
+2018-02-02 18:07:45.400, Warning   [CStateManager::SetWelcomePageProperties]  File:statemanager.cpp, Line:635 error code 0x80070002 ignored
+2018-02-02 18:07:45.400, Info      [CStateManager::SetWelcomePageProperties] Referral ID = 
+2018-02-02 18:07:45.400, Info      [CStateManager::SetWelcomePageProperties] Client ID = {}
+2018-02-02 18:07:45.400, Info      [CStateManager::SetWelcomePageProperties] CV = DM4uczrIxU2d6mjb.999
+2018-02-02 18:07:45.400, Info      [CStateManager::SetWelcomePageProperties] Signature = 
+2018-02-02 18:07:45.400, Info      [CStateManager::SetWelcomePageProperties] User upgrade = true
+2018-02-02 18:07:45.400, Info      Updating UI WelcomeUserOnWin10
+2018-02-02 18:07:48.806, Info      Calling js function to transform state WelcomeUserOnWin10: javascript:updateControls(240, "UserSignature:\nCV:DM4uczrIxU2d6mjb.999\nUserUpgrade:true\nUserReferralID:\nUserHardwareID:{}\n")
+2018-02-02 18:09:37.274, Info      [TelemetryUpgrade::CanSendTelemetry]  Telemetry allowed on Win10 and above.
+2018-02-02 18:12:04.936, Info      Requested URL: app:Exit;ExitingState:240;ExitingHResult:0
+2018-02-02 18:12:04.936, Info      UI callback: exit
+2018-02-02 18:12:04.936, Info      Exiting state WelcomeUserOnWin10 - 240
+2018-02-02 18:12:04.936, Info      Exiting error code 0
+2018-02-02 18:12:04.936, Info      State manager get user action state UserPerformExit
+2018-02-02 18:12:04.936, Info      State manager originalState UserPerformExit, m_State WelcomeUserOnWin10.
+2018-02-02 18:12:05.030, Info      Exit state: WelcomeUserOnWin10, error code 0x0.
+2018-02-02 18:12:05.030, Info      [TelemetryUpgrade::CanSendTelemetry]  Telemetry allowed on Win10 and above.
+2018-02-02 18:12:05.030, Info      [WriteExitInfoInRegistry] Registry key SOFTWARE\Microsoft\Windows10Upgrader not found
